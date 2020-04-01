@@ -112,7 +112,8 @@ body {
 
 /*-----------------------------------------recommandation---------------------------------------*/
 .org {
-  background-color: #1078AD; }
+  background-color: #1078AD;
+  margin-bottom: -2%; }
   .org__title {
     text-align: center;
     color: #D0E5F0;
@@ -161,3 +162,26 @@ body {
   height: 1px;
   background-color: #F4CF1B;
   border: none; }
+
+/*------------------------------------virus------------------------------*/
+.virus {
+  background-color: #96C5DC;
+  margin-top: 0; }
+  .virus__title {
+    text-align: center;
+    color: #1078AD; }
+  .virus__icon {
+    display: block;
+    margin-right: auto;
+    margin-left: auto; }
+  .virus__button {
+    background-color: #1078AD;
+    border-radius: 5px;
+    border: none;
+    width: 40%;
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    display: block;
+    margin: auto;
+    margin-top: 1.5%; }

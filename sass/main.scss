@@ -204,6 +204,7 @@ line-height:35px;
     .org {
 
        background-color: #1078AD ;
+       margin-bottom: -2%;
 
        &__title {
 
@@ -291,4 +292,40 @@ line-height:35px;
    }
 
     
-/*------------------------------------
+/*------------------------------------virus------------------------------*/
+  
+  .virus{
+
+    background-color: #96C5DC;
+    margin-top: 0;
+
+    &__title{
+
+        text-align: center;
+        color: #1078AD;
+    }
+
+    &__icon{
+
+        display: block;
+        margin-right:auto ;
+        margin-left: auto;
+    }
+    
+    &__button{
+   
+        background-color: #1078AD ;
+        border-radius: 5px;
+        border: none;
+        width: 40%;
+        height: 50px;
+        font-size: 30px;
+        color: white;
+        display: block;
+        margin : auto;
+        margin-top: 1.5%;
+
+        
+
+    }
+  }
