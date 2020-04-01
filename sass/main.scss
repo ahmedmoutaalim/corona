@@ -119,6 +119,7 @@ line-height:35px;
 
 
 .imag{
+    width:100;
     margin-top: -180px;
     margin-left:28px ;
     grid-area: imag;
@@ -197,9 +198,97 @@ line-height:35px;
 
 
     }
-  
-    /*-----------------------------------------footer---------------------------------------*/
+}
+    /*-----------------------------------------recommandation---------------------------------------*/
 
-   
+    .org {
+
+       background-color: #1078AD ;
+
+       &__title {
+
+        text-align: center;
+        color: #D0E5F0;
+        font-size: 35px;
+        font-weight: 700;
+       }
+  
+    }
+    .recommand{
+
+        display: flex;
+        justify-content: space-around;
+    }
+
+   .part1{
+
+    &__black{
+        font-size: 35pX;
+        margin-left: -8%;
+        margin-top: -1%;
+        
+    }
+    &__text{
+        color: white;
+        -webkit-text-stroke: 1px black;
+        font-size: 30pX;
+        margin-left: -8%;
+        margin-top: -4%;
+
+        
+    }
 
 }
+    .part2{
+
+
+        &__appel{
+  
+          color:#F4CF1B; 
+          font-size: 35px;
+          
+          
+
+        }
+    
+
+        &__num{
+
+            background-color: #F4CF1B;
+            color: #1078AD;
+            border-radius: 5px;
+            width: 60%;
+            height: 15%;
+            border: none;
+            font-size: x-large;
+            margin-bottom: 22%;
+            margin-left: -2%;
+        
+           
+              
+
+        }
+        
+        &__web{
+
+            color:white;
+            
+            font-size: x-large;
+            
+         
+        }
+
+        &__hr{
+          
+            width: 58%;
+           margin-left: -2%;
+          margin-top: -2%;
+            height: 1px;
+           background-color: #F4CF1B;
+           border: none;
+        }
+
+   }
+
+    
+/*------------------------------------

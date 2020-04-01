@@ -60,6 +60,7 @@ body {
     font-size: 20px; }
 
 .imag {
+  width: 100;
   margin-top: -180px;
   margin-left: 28px;
   grid-area: imag; }
@@ -92,8 +93,7 @@ body {
 
 /*---------------------------------symptome-------------------------------*/
 .symptome {
-  width: 100%;
-  /*-----------------------------------------footer---------------------------------------*/ }
+  width: 100%; }
   .symptome__title {
     text-align: center;
     color: #1078AD; }
@@ -109,3 +109,55 @@ body {
       text-align: center;
       margin-left: 15%;
       line-height: 20px; }
+
+/*-----------------------------------------recommandation---------------------------------------*/
+.org {
+  background-color: #1078AD; }
+  .org__title {
+    text-align: center;
+    color: #D0E5F0;
+    font-size: 35px;
+    font-weight: 700; }
+
+.recommand {
+  display: flex;
+  justify-content: space-around; }
+
+.part1__black {
+  font-size: 35pX;
+  margin-left: -8%;
+  margin-top: -1%; }
+
+.part1__text {
+  color: white;
+  -webkit-text-stroke: 1px black;
+  font-size: 30pX;
+  margin-left: -8%;
+  margin-top: -4%; }
+
+.part2__appel {
+  color: #F4CF1B;
+  font-size: 35px; }
+
+.part2__num {
+  background-color: #F4CF1B;
+  color: #1078AD;
+  border-radius: 5px;
+  width: 60%;
+  height: 15%;
+  border: none;
+  font-size: x-large;
+  margin-bottom: 22%;
+  margin-left: -2%; }
+
+.part2__web {
+  color: white;
+  font-size: x-large; }
+
+.part2__hr {
+  width: 58%;
+  margin-left: -2%;
+  margin-top: -2%;
+  height: 1px;
+  background-color: #F4CF1B;
+  border: none; }
