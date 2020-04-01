@@ -1,11 +1,162 @@
 *{
 
-    margin: 0;
+   
+    text-decoration: none;
 }
+
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Cairo', sans-serif;
+}
+
+
 
 
 .navbar{
 
+    &__back {
+      position: absolute;
+      z-index:0;
+      width:100%;
+      right:0px;
+      height: 18vh;
+      top: 0px;
+     
+    }
+    &__logo {
 
-background-image: image("");
+        margin: 10px 20px ;
+
+      
+    }
+
+    &__link{
+        float:right;
+        margin: 33px 50px;
+        
+     
+        
+         
+      
+        &--element{
+            
+            padding: 0 30px;
+            font-size: x-large ;
+            color: #1078AD;
+       }
+
+      
+
+     
+
+       &--button {
+        
+         padding: 5px 50px 5px 15px;
+         border-width :1.5px;
+         border-color:#1078AD;
+         border-radius: 10px;
+         font-size: x-large;
+         margin-left: 30px;
+         color: #1078AD;
+         
+
+
+       }
+
+       &--icon{
+        position: absolute;
+        top:55px;
+        right: 85px;   
+       
+       }
+
+
+    }
+   
+    
+}
+
+
+
+.grid{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "info info"
+                         "imag test";
+
+}
+
+.info{
+ font-weight: 500;   
+ grid-area:info ;
+ background-color: #F4CF1B;
+margin-top: -3px;
+ height:42%;
+ margin-bottom: -12px;
+line-height:35px;
+
+ &__titre{
+       
+    text-align: center;
+    font-size: 24px;
+    margin-top: 2px;
+    
+
+ }
+ &__text{
+     
+    text-align: center;
+    color: #1078AD;
+    font-size: 20px;
+    margin-top: -20px;
+
+ 
+ }
+}
+
+
+.imag{
+    margin-top: -180px;
+    margin-left:28px ;
+    grid-area: imag;
+    &__img{
+     width:750px;
+
+
+    }
+}
+
+.test {
+    
+    margin-top: -250px;
+    grid-area: test;
+    &__title{
+        color:  #1078AD;
+        text-align: center;
+        
+        font-size: 30px;
+    }
+
+    &__icon{
+        margin-left:43.6%;
+     
+    }
+    &__text{
+        font-size: 30px;
+        text-align: center;
+    }
+    &__button{
+       margin-left: 5px;
+        background-color: #1078AD ;
+        border-radius: 5px;
+        border: none;
+        width: 710px;
+        height: 50px;
+        font-size: 30px;
+        color: white;
+        margin-bottom: 20px;
+    }
 }
