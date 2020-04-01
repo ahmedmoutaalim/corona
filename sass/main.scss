@@ -90,19 +90,19 @@ body{
 }
 
 .info{
- font-weight: 500;   
+ width: 100%;  
  grid-area:info ;
  background-color: #F4CF1B;
-margin-top: -3px;
+margin-top: -0.2%;
  height:42%;
- margin-bottom: -12px;
+
 line-height:35px;
 
  &__titre{
        
     text-align: center;
     font-size: 24px;
-    margin-top: 2px;
+    margin-top: 1%;
     
 
  }
@@ -111,7 +111,7 @@ line-height:35px;
     text-align: center;
     color: #1078AD;
     font-size: 20px;
-    margin-top: -20px;
+  
 
  
  }
@@ -123,7 +123,7 @@ line-height:35px;
     margin-left:28px ;
     grid-area: imag;
     &__img{
-     width:750px;
+     width:100%;
 
 
     }
@@ -131,7 +131,7 @@ line-height:35px;
 
 .test {
     
-    margin-top: -250px;
+    margin-top: -32%;
     grid-area: test;
     &__title{
         color:  #1078AD;
@@ -147,16 +147,59 @@ line-height:35px;
     &__text{
         font-size: 30px;
         text-align: center;
+        color: #7F7F7F;
+       
     }
     &__button{
-       margin-left: 5px;
+        margin-left: 5px;
         background-color: #1078AD ;
         border-radius: 5px;
         border: none;
-        width: 710px;
+        width: 93%;
         height: 50px;
         font-size: 30px;
         color: white;
         margin-bottom: 20px;
     }
+}
+/*---------------------------------symptome-------------------------------*/
+
+
+.symptome{
+    width:100%;
+    
+    &__title {
+
+        text-align: center;
+        color: #1078AD ;
+       
+    }
+    &__icon{
+
+        display: flex;
+        justify-content: space-evenly;
+
+        &--right{
+            text-align: center;
+            margin-right:15% ;
+            margin-top: 2%;
+            line-height: 20px;
+          
+            
+        }
+        
+        &--left{
+            text-align: center;
+            margin-left: 15%;
+            line-height: 20px;
+          
+        }
+
+
+    }
+  
+    /*-----------------------------------------footer---------------------------------------*/
+
+   
+
 }
