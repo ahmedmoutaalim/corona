@@ -8,7 +8,7 @@ body {
 
 .navbar__back {
   position: absolute;
-  z-index: 0;
+  z-index: -6;
   width: 100%;
   right: 0px;
   height: 18vh;
@@ -33,11 +33,16 @@ body {
     border-radius: 10px;
     font-size: x-large;
     margin-left: 30px;
-    color: #1078AD; }
+    color: #1078AD;
+    background-color: transparent;
+    outline: none; }
   .navbar__link--icon {
     position: absolute;
     top: 55px;
     right: 85px; }
+
+.navbar a {
+  z-index: 30; }
 
 .grid {
   display: grid;
@@ -54,12 +59,12 @@ body {
   line-height: 35px; }
   .info__titre {
     text-align: center;
-    font-size: 24px;
+    font-size: 30px;
     margin-top: 1%; }
   .info__text {
     text-align: center;
     color: #1078AD;
-    font-size: 20px; }
+    font-size: 26px; }
 
 .imag {
   width: 100;
@@ -86,12 +91,16 @@ body {
     margin-left: 5px;
     background-color: #1078AD;
     border-radius: 5px;
-    border: none;
+    border: 1px solid black;
     width: 93%;
     height: 50px;
     font-size: 30px;
     color: white;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    transition: background-color 2s ease-out;
+    outline: none; }
+  .test__button:hover {
+    background-color: #D0E5F0; }
 
 /*---------------------------------symptome-------------------------------*/
 .symptome {
@@ -187,10 +196,10 @@ body {
     color: white;
     display: block;
     margin: auto;
-    margin-top: 1.5%; }
+    margin-top: 1.5%;
+    transition: background-color 2s ease-out; }
   .virus__button:hover {
-    background-color: #D0E5F0;
-    transition: 2s; }
+    background-color: #D0E5F0; }
 
 /*-----------------------------------------------------footer--------------------------------------------*/
 .section__icon {
@@ -246,3 +255,7 @@ body {
 .poeme {
   color: #7F7F7F;
   margin: 70px 0  0 -80px; }
+
+.proteger__title {
+  text-align: center;
+  color: #1078AD; }
