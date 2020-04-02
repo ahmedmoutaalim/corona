@@ -216,6 +216,7 @@ line-height:35px;
             margin-right:15% ;
             margin-top: 2%;
             line-height: 20px;
+            margin-top: 3.5%;
           
             
         }
@@ -224,6 +225,7 @@ line-height:35px;
             text-align: center;
             margin-left: 15%;
             line-height: 20px;
+          
           
         }
 
@@ -454,7 +456,7 @@ line-height:35px;
 
    &__num{
 
-    color: #F4CF1B;
+    color:#369D53;
    }
 
    &__nice{
@@ -464,7 +466,7 @@ line-height:35px;
    
    &__chiff{
 
-    color:  #F4CF1B;
+    color: #369D53;
    }
 
 }
@@ -478,6 +480,15 @@ line-height:35px;
 
     margin: 70px 0  0 -80px;
 }
+
+
+.bond{
+
+    background-color: #1078AD;
+    height: 30px;
+}    
+
+
 
 
 @import"./conseil.scss";

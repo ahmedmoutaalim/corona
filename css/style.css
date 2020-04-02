@@ -115,7 +115,8 @@ body {
       text-align: center;
       margin-right: 15%;
       margin-top: 2%;
-      line-height: 20px; }
+      line-height: 20px;
+      margin-top: 3.5%; }
     .symptome__icon--left {
       text-align: center;
       margin-left: 15%;
@@ -246,16 +247,117 @@ body {
   .Contact__text {
     color: black; }
   .Contact__num {
-    color: #F4CF1B; }
+    color: #369D53; }
   .Contact__nice {
     color: black; }
   .Contact__chiff {
-    color: #F4CF1B; }
+    color: #369D53; }
 
 .poeme {
   color: #7F7F7F;
   margin: 70px 0  0 -80px; }
 
+.bond {
+  background-color: #1078AD;
+  height: 30px; }
+
+.info {
+  margin-top: -0.8%; }
+  .info__titre {
+    margin-bottom: -0.5%; }
+
 .proteger__title {
   text-align: center;
   color: #1078AD; }
+
+.protection {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: #1078AD;
+  font-size: large; }
+
+.hand {
+  margin-top: 30pX; }
+
+.water {
+  margin-right: 70px; }
+
+.masque {
+  margin-top: 15px; }
+
+.house {
+  margin-top: 2%;
+  display: block;
+  text-align: center;
+  font-size: large;
+  color: #1078AD; }
+
+.information {
+  background-color: #D0E5F0;
+  display: flex;
+  justify-content: space-around;
+  text-align: center; }
+  .information__text--titre {
+    font-size: 40px;
+    color: #1078AD; }
+  .information__text--ligne {
+    margin-top: -25px;
+    color: #1A519E;
+    font-size: larger; }
+  .information__butt {
+    margin-top: 5%; }
+    .information__butt--ferst {
+      background-color: #1078AD;
+      color: white;
+      font-size: 14px;
+      padding: 20px 25px 20px 25px;
+      border: none;
+      border-radius: 2px;
+      outline: none;
+      font-weight: bolder;
+      transition: background-color 2s ease-out;
+      border: 1px solid black; }
+    .information__butt--ferst:hover {
+      background-color: #D0E5F0; }
+  .information__butt2 {
+    margin-top: 5%; }
+    .information__butt2--second {
+      background-color: #1078AD;
+      color: white;
+      font-size: 14px;
+      padding: 20px 25px 20px 25px;
+      border: none;
+      border-radius: 2px;
+      outline: none;
+      font-weight: bolder;
+      width: 250PX;
+      transition: background-color 2s ease-out;
+      border: 1px solid black; }
+    .information__butt2--second:hover {
+      background-color: #D0E5F0; }
+
+/*--------------------------------------------------------------------------*/
+.transmet {
+  margin-top: 5%; }
+  .transmet__title {
+    text-align: center;
+    color: #1A519E; }
+
+.flexbox {
+  display: flex;
+  justify-content: space-evenly; }
+
+.par1 {
+  color: #1A519E;
+  text-align: center;
+  font-size: larger;
+  margin-left: 8%;
+  margin-top: 2%; }
+
+.par2 {
+  color: #1A519E;
+  text-align: center;
+  font-size: larger;
+  margin-right: 8%;
+  margin-top: 2.4%; }
