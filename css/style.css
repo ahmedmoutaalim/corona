@@ -24,6 +24,8 @@ body {
     padding: 0 30px;
     font-size: x-large;
     color: #1078AD; }
+  .navbar__link--element:hover {
+    color: black; }
   .navbar__link--button {
     padding: 5px 50px 5px 15px;
     border-width: 1.5px;
@@ -166,7 +168,8 @@ body {
 /*------------------------------------virus------------------------------*/
 .virus {
   background-color: #96C5DC;
-  margin-top: 0; }
+  height: 240px;
+  margin-bottom: 20px; }
   .virus__title {
     text-align: center;
     color: #1078AD; }
@@ -177,7 +180,7 @@ body {
   .virus__button {
     background-color: #1078AD;
     border-radius: 5px;
-    border: none;
+    border: 1px solid black;
     width: 40%;
     height: 50px;
     font-size: 30px;
@@ -185,3 +188,61 @@ body {
     display: block;
     margin: auto;
     margin-top: 1.5%; }
+  .virus__button:hover {
+    background-color: #D0E5F0;
+    transition: 2s; }
+
+/*-----------------------------------------------------footer--------------------------------------------*/
+.section__icon {
+  display: block;
+  margin: auto; }
+
+.flex {
+  display: flex;
+  justify-content: space-around; }
+
+.list__ul {
+  list-style: none; }
+
+.list__button {
+  padding: 5px 50px 5px 15px;
+  border-width: 1.5px;
+  border-color: #1078AD;
+  border-radius: 10px;
+  font-size: large;
+  color: black;
+  background-color: transparent;
+  margin-bottom: 10px;
+  margin-left: -15px;
+  outline: none; }
+
+.list__il {
+  padding: 15px 0;
+  font-size: x-large;
+  color: #1078AD; }
+
+.list__il:hover {
+  color: black; }
+
+.list__icon {
+  position: absolute;
+  left: 70px;
+  bottom: -36px;
+  position: relative; }
+
+.Contact {
+  text-align: center; }
+  .Contact__title {
+    color: #1078AD; }
+  .Contact__text {
+    color: black; }
+  .Contact__num {
+    color: #F4CF1B; }
+  .Contact__nice {
+    color: black; }
+  .Contact__chiff {
+    color: #F4CF1B; }
+
+.poeme {
+  color: #7F7F7F;
+  margin: 70px 0  0 -80px; }

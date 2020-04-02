@@ -45,6 +45,11 @@ body{
             font-size: x-large ;
             color: #1078AD;
        }
+       
+       &--element:hover{
+
+       color: black;
+       }
 
       
 
@@ -67,7 +72,8 @@ body{
        &--icon{
         position: absolute;
         top:55px;
-        right: 85px;   
+        right: 85px; 
+          
        
        }
 
@@ -297,7 +303,9 @@ line-height:35px;
   .virus{
 
     background-color: #96C5DC;
-    margin-top: 0;
+    height: 240px;
+    margin-bottom: 20px;
+    
 
     &__title{
 
@@ -316,7 +324,7 @@ line-height:35px;
    
         background-color: #1078AD ;
         border-radius: 5px;
-        border: none;
+        border:1px solid black; 
         width: 40%;
         height: 50px;
         font-size: 30px;
@@ -324,8 +332,124 @@ line-height:35px;
         display: block;
         margin : auto;
         margin-top: 1.5%;
-
+        
         
 
     }
+
+    &__button:hover{
+
+        background-color: #D0E5F0;
+        transition: 2s;
+
+    }
   }
+/*-----------------------------------------------------footer--------------------------------------------*/
+
+.section{
+
+    &__icon{
+
+        display: block;
+        margin: auto;
+    }
+
+    
+}
+
+.flex{
+
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.list{
+
+    &__ul{
+
+        list-style: none;
+        
+    }
+
+    &__button{
+        padding: 5px 50px 5px 15px;
+         border-width :1.5px;
+         border-color:#1078AD;
+         border-radius: 10px;
+         font-size: large;
+         color: black;
+         background-color: transparent;
+         margin-bottom: 10px;
+         margin-left: -15px;
+         outline: none;
+
+
+    }
+
+    &__il{
+
+       padding: 15px 0;
+       font-size: x-large;
+       color: #1078AD;
+       
+    }
+    &__il:hover{
+
+        color: black;
+    }
+
+    &__icon{
+
+        position: absolute;
+        left:70px;
+        bottom: -36px;
+        position: relative;
+        
+    }
+
+
+}
+
+
+
+
+.Contact{
+    text-align: center;
+   &__title{
+
+    color:#1078AD;
+
+   }
+
+   &__text{
+       color: black;
+
+   }
+
+   &__num{
+
+    color: #F4CF1B;
+   }
+
+   &__nice{
+       color: black;
+       
+   }
+   
+   &__chiff{
+
+    color:  #F4CF1B;
+   }
+
+}
+
+
+
+
+
+.poeme{
+    color:#7F7F7F ;
+
+    margin: 70px 0  0 -80px;
+}
