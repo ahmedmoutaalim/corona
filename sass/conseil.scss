@@ -1,0 +1,183 @@
+
+.info{
+
+   margin-top: -0.8%;
+
+   &__titre{
+
+      margin-bottom:  -0.5%;
+   }
+}
+
+
+
+.proteger{
+    
+     &__title{
+
+        text-align: center;
+        color: #1078AD;
+        
+     }
+
+}
+
+.protection {
+
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+   color: #1078AD;
+   font-size: large;
+ 
+}
+
+
+.hand{
+
+   margin-top: 30pX;
+   
+}
+
+.water{
+
+   margin-right: 70px;
+}
+
+.masque{
+
+   margin-top: 15px;
+}
+
+.house{
+margin-top: 2%;
+   display: block;
+   text-align: center;
+   font-size: large;
+   color: #1078AD;
+}
+
+.information{
+   background-color: #D0E5F0;
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+   
+
+   &__text{
+
+     &--titre{
+         
+        font-size: 40px;
+        color: #1078AD;
+
+     }
+
+     &--ligne{
+      margin-top: -25px;
+      color: #1A519E;
+      font-size: larger;
+     }
+   }
+
+
+
+   &__butt{
+
+   margin-top: 5%;
+ 
+
+   &--ferst{
+
+      background-color: #1078AD;
+      color: white;
+      font-size: 14px;
+      padding:20px 25px 20px 25px;
+      border: none;
+      border-radius: 2px;
+      outline: none;
+       font-weight: bolder;
+       transition: background-color 2s ease-out;
+       border: 1px solid black;
+   }
+
+   &--ferst:hover{
+
+      background-color: #D0E5F0;
+   }
+
+   }
+
+   &__butt2{
+
+      margin-top: 5%;
+      
+
+         &--second{
+
+            background-color: #1078AD;
+            color: white;
+            font-size: 14px;
+            padding:20px 25px 20px 25px;
+            border: none;
+            border-radius: 2px;
+            outline: none;
+             font-weight: bolder;
+             width: 250PX;
+             transition: background-color 2s ease-out;
+             border: 1px solid black;
+         }
+
+         &--second:hover{
+
+            background-color: #D0E5F0;
+         }
+      
+   }
+
+
+}
+
+
+/*--------------------------------------------------------------------------*/
+
+.transmet{
+margin-top: 5%;
+   &__title{
+
+      text-align: center;
+      color: #1A519E;
+   }
+
+}
+
+
+.flexbox{
+
+   display: flex;
+   justify-content: space-evenly;
+
+
+}
+
+
+.par1{
+
+  color: #1A519E;
+  text-align: center;
+  font-size: larger;
+  margin-left: 8%;
+  margin-top: 2%;
+
+}
+
+
+.par2{
+
+   color: #1A519E;
+   text-align: center;
+   font-size: larger;
+   margin-right: 8%;
+   margin-top: 2.4%;
+ 
+ }

@@ -1,0 +1,494 @@
+
+
+
+
+*{
+
+  
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Cairo', sans-serif;
+}
+
+
+
+
+.navbar{
+
+
+
+    &__back {
+      position: absolute;
+      z-index:-6;
+      width:100%;
+      right:0px;
+      height: 18vh;
+      top: 0px;
+     
+    }
+    &__logo {
+
+        margin: 10px 20px ;
+
+      
+    }
+
+    &__link{
+        float:right;
+        margin: 33px 50px;
+        
+     
+        
+         
+      
+        &--element{
+            
+            padding: 0 30px;
+            font-size: x-large ;
+            color: #1078AD;
+       }
+       
+       &--element:hover{
+
+       color: black;
+       }
+
+      
+
+     
+
+       &--button {
+        
+         padding: 5px 50px 5px 15px;
+         border-width :1.5px;
+         border-color:#1078AD;
+         border-radius: 10px;
+         font-size: x-large;
+         margin-left: 30px;
+         color: #1078AD;
+         background-color: transparent;
+         outline: none;
+
+       }
+
+
+       &--icon{
+
+        position: absolute;
+        top:55px;
+        right: 85px; 
+          
+       
+       }
+
+
+    }
+   
+   a{
+      z-index: 30;
+
+
+   } 
+}
+
+
+
+
+
+.grid{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "info info"
+                         "imag test";
+
+}
+
+.info{
+ width: 100%;  
+ grid-area:info ;
+ background-color: #F4CF1B;
+margin-top: -0.2%;
+ height:42%;
+
+line-height:35px;
+
+ &__titre{
+       
+    text-align: center;
+    font-size: 30px;
+    margin-top: 1%;
+    
+
+ }
+ &__text{
+     
+    text-align: center;
+    color: #1078AD;
+    font-size: 26px;
+  
+
+ 
+ }
+}
+
+
+.imag{
+    width:100;
+    margin-top: -180px;
+    margin-left:28px ;
+    grid-area: imag;
+    &__img{
+     width:100%;
+
+
+    }
+}
+
+.test {
+    
+    margin-top: -32%;
+    grid-area: test;
+
+    &__title{
+        color:  #1078AD;
+        text-align: center;
+        
+        font-size: 30px;
+    }
+
+    &__icon{
+        margin-left:43.6%;
+     
+    }
+    &__text{
+        font-size: 30px;
+        text-align: center;
+        color: #7F7F7F;
+       
+    }
+    &__button{
+        margin-left: 5px;
+        background-color: #1078AD ;
+        border-radius: 5px;
+        border: 1px solid black;
+        width: 93%;
+        height: 50px;
+        font-size: 30px;
+        color: white;
+        margin-bottom: 20px;
+        transition: background-color 2s ease-out;
+        outline: none;
+    }
+
+    
+    &__button:hover{
+
+        background-color: #D0E5F0;
+   
+
+    }
+}
+/*---------------------------------symptome-------------------------------*/
+
+
+.symptome{
+    width:100%;
+    
+    &__title {
+
+        text-align: center;
+        color: #1078AD ;
+       
+    }
+    &__icon{
+
+        display: flex;
+        justify-content: space-evenly;
+
+        &--right{
+            text-align: center;
+            margin-right:15% ;
+            margin-top: 2%;
+            line-height: 20px;
+            margin-top: 3.5%;
+          
+            
+        }
+        
+        &--left{
+            text-align: center;
+            margin-left: 15%;
+            line-height: 20px;
+          
+          
+        }
+
+
+    }
+}
+    /*-----------------------------------------recommandation---------------------------------------*/
+
+    .org {
+
+       background-color: #1078AD ;
+       margin-bottom: -2%;
+
+       &__title {
+
+        text-align: center;
+        color: #D0E5F0;
+        font-size: 35px;
+        font-weight: 700;
+       }
+  
+    }
+    .recommand{
+
+        display: flex;
+        justify-content: space-around;
+    }
+
+   .part1{
+
+    &__black{
+        font-size: 35pX;
+        margin-left: -8%;
+        margin-top: -1%;
+        
+    }
+    &__text{
+        color: white;
+        -webkit-text-stroke: 1px black;
+        font-size: 30pX;
+        margin-left: -8%;
+        margin-top: -4%;
+
+        
+    }
+
+}
+    .part2{
+
+
+        &__appel{
+  
+          color:#F4CF1B; 
+          font-size: 35px;
+          
+          
+
+        }
+    
+
+        &__num{
+
+            background-color: #F4CF1B;
+            color: #1078AD;
+            border-radius: 5px;
+            width: 60%;
+            height: 15%;
+            border: none;
+            font-size: x-large;
+            margin-bottom: 22%;
+            margin-left: -2%;
+        
+           
+              
+
+        }
+        
+        &__web{
+
+            color:white;
+            
+            font-size: x-large;
+            
+         
+        }
+
+        &__hr{
+          
+            width: 58%;
+           margin-left: -2%;
+          margin-top: -2%;
+            height: 1px;
+           background-color: #F4CF1B;
+           border: none;
+        }
+
+   }
+
+    
+/*------------------------------------virus------------------------------*/
+  
+  .virus{
+
+    background-color: #96C5DC;
+    height: 240px;
+    margin-bottom: 20px;
+    
+
+    &__title{
+
+        text-align: center;
+        color: #1078AD;
+    }
+
+    &__icon{
+
+        display: block;
+        margin-right:auto ;
+        margin-left: auto;
+    }
+    
+    &__button{
+   
+        background-color: #1078AD ;
+        border-radius: 5px;
+        border:1px solid black; 
+        width: 40%;
+        height: 50px;
+        font-size: 30px;
+        color: white;
+        display: block;
+        margin : auto;
+        margin-top: 1.5%;
+        transition: background-color 2s ease-out;
+        
+
+    }
+
+    &__button:hover{
+
+        background-color: #D0E5F0;
+   
+
+    }
+  }
+/*-----------------------------------------------------footer--------------------------------------------*/
+
+.section{
+
+    &__icon{
+
+        display: block;
+        margin: auto;
+    }
+
+    
+}
+
+.flex{
+
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.list{
+
+    &__ul{
+
+        list-style: none;
+        
+    }
+
+    &__button{
+        padding: 5px 50px 5px 15px;
+         border-width :1.5px;
+         border-color:#1078AD;
+         border-radius: 10px;
+         font-size: large;
+         color: black;
+         background-color: transparent;
+         margin-bottom: 10px;
+         margin-left: -15px;
+         outline: none;
+
+
+    }
+
+    &__il{
+
+       padding: 15px 0;
+       font-size: x-large;
+       color: #1078AD;
+       
+    }
+    &__il:hover{
+
+        color: black;
+    }
+
+    &__icon{
+
+        position: absolute;
+        left:70px;
+        bottom: -36px;
+        position: relative;
+        
+    }
+
+
+}
+
+
+
+
+.Contact{
+    text-align: center;
+   &__title{
+
+    color:#1078AD;
+
+   }
+
+   &__text{
+       color: black;
+
+   }
+
+   &__num{
+
+    color:#369D53;
+   }
+
+   &__nice{
+       color: black;
+       
+   }
+   
+   &__chiff{
+
+    color: #369D53;
+   }
+
+}
+
+
+
+
+
+.poeme{
+    color:#7F7F7F ;
+
+    margin: 70px 0  0 -80px;
+}
+
+
+.bond{
+
+    background-color: #1078AD;
+    height: 30px;
+}    
+
+
+
+
+@import"./conseil.scss";
