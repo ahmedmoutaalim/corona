@@ -12,6 +12,17 @@ body{
     margin: 0;
     padding:0;
     font-family: 'Cairo', sans-serif;
+
+    &::-webkit-scrollbar {
+        width: 5px;
+        background:#F4CF1B;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #1078AD;
+       
+
+    }
 }
 
 
@@ -113,10 +124,9 @@ body{
  width: 100%;  
  grid-area:info ;
  background-color: #F4CF1B;
-margin-top: -0.2%;
+ margin-top: -0.2%;
  height:42%;
-
-line-height:35px;
+ line-height:35px;
 
  &__titre{
        
@@ -136,7 +146,6 @@ line-height:35px;
  
  }
 }
-
 
 .imag{
     width:100;
@@ -173,10 +182,11 @@ line-height:35px;
        
     }
     &__button{
+        background-color: #D0E5F0;
         margin-left: 5px;
-        background-color: #1078AD ;
+        
         border-radius: 5px;
-        border: 1px solid black;
+        border: 2px solid #1078AD;
         width: 93%;
         height: 50px;
         font-size: 30px;
@@ -189,7 +199,7 @@ line-height:35px;
     
     &__button:hover{
 
-        background-color: #D0E5F0;
+        background-color: #1078AD ;
    
 
     }
@@ -264,7 +274,7 @@ line-height:35px;
     }
     &__text{
         color: white;
-        -webkit-text-stroke: 1px black;
+        
         font-size: 30pX;
         margin-left: -8%;
         margin-top: -4%;
@@ -315,11 +325,11 @@ line-height:35px;
         &__hr{
           
             width: 58%;
-           margin-left: -2%;
-          margin-top: -2%;
+            margin-left: -2%;
+            margin-top: -2%;
             height: 1px;
-           background-color: #F4CF1B;
-           border: none;
+            background-color: #F4CF1B;
+            border: none;
         }
 
    }
@@ -348,10 +358,10 @@ line-height:35px;
     }
     
     &__button{
-   
-        background-color: #1078AD ;
+        background-color: #D0E5F0;
+        
         border-radius: 5px;
-        border:1px solid black; 
+        border:2px solid #1078AD; 
         width: 40%;
         height: 50px;
         font-size: 30px;
@@ -360,13 +370,14 @@ line-height:35px;
         margin : auto;
         margin-top: 1.5%;
         transition: background-color 2s ease-out;
+        outline: none;
         
 
     }
 
     &__button:hover{
 
-        background-color: #D0E5F0;
+        background-color: #1078AD ;
    
 
     }
@@ -376,9 +387,10 @@ line-height:35px;
 .section{
 
     &__icon{
-
+        
         display: block;
         margin: auto;
+        
     }
 
     
@@ -400,12 +412,12 @@ line-height:35px;
     }
 
     &__button{
-        padding: 5px 50px 5px 15px;
+      padding: 5px 50px 5px 15px;
          border-width :1.5px;
          border-color:#1078AD;
          border-radius: 10px;
          font-size: large;
-         color: black;
+         color:#1078AD;
          background-color: transparent;
          margin-bottom: 10px;
          margin-left: -15px;
@@ -492,3 +504,4 @@ line-height:35px;
 
 
 @import"./conseil.scss";
+@import"./test.scss";
