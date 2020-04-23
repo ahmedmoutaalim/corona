@@ -7,6 +7,10 @@ const scroll = document.querySelectorAll('.steppers h1')
 const nextButton = document.getElementById('next-btn')
 const question = document.getElementById('nextQuestion')
 const selectInputs = document.querySelector('.answer-inputs')
+const buttPrevious = document.getElementById('pré-btn')
+const progressBar = document.getElementsByClassName('progress')
+const serialPlus = document.querySelector('.question-number')
+const bar = document.querySelector('.bar')
 
 
 let questionIndex=0;
@@ -35,13 +39,16 @@ function startTest(){
 
 }
 
-//-----------------------srealQuestion-----------:
+//---------------------------next_Question-----------------------:
 
  function nextQuetion(){
 
     questionIndex++
      
     showQuestion( questions[questionIndex])
+
+    progressButtons(questionIndex)
+    
 
  }
 
@@ -54,28 +61,62 @@ function startTest(){
 function showQuestion(questions){
 
     question.innerText=questions.question
+    selectInputs.innerHTML = ''
+
 
     if(questions.input.type==='radio'){
 
       questions.input.answer.forEach(answer =>{
 
         selectInputs.innerHTML += 
-         `   <div>
+         `<div>
         <input type="radio"  name="chois" id="${answer.text}">
         <label for="${answer.text}">
-            <i class="fas fa-check"></i>
+            <i class="${answer.icon}"></i>
             <span>${answer.text}</span> </label>
-        </div>`
-
-        
+        </div>
+        `
 
       })
+    
+    }else{
 
-
-
+        selectInputs.innerHTML=` <input type="number"  id="${questions.input.name}"
+         min="${questions.input.min}" max="${questions.input.max}" placeholder=" ${questions.input.min}- ${questions.input.max}">
+        <span class="input-span">${questions.input.name}</span>`
         
     }
 
+
+}
+
+
+
+//-------------------------previous_question-------------------:
+
+buttPrevious.addEventListener('click',()=>{
+
+    questionIndex--
+     
+    showQuestion( questions[questionIndex])
+
+    progressButtons(questionIndex)
+
+})
+
+
+//---------------------controle_progressbar----------------------:
+
+function progressButtons(number){
+
+
+    const addNumber = number + 1 ;
+    serialPlus.innerHTML= addNumber ;
+
+
+    bar.style.width =` calc(${addNumber}*calc(100%/22))` 
+
+   
 
 }
 
@@ -134,7 +175,8 @@ const questions = [{
         answer: [{
             text: 'Oui',
             icon: 'fa-check'
-        }, {
+        }, 
+        {
             text: 'Non',
             icon: 'fa-times'
         }]

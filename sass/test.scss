@@ -105,13 +105,13 @@
     }
 
 }
+/*-------------------------------------------------------*/
+
 
 .answer-inputs {
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     height: 50%;
 
 
@@ -239,7 +239,7 @@
         color:  white;
         float:right;
         outline: none;  
-        cursor: not-allowed;
+      
     
 
         &:hover{
@@ -277,12 +277,12 @@
         height: 10px;
         border-radius: 20px;
         background-color: #e6f1f7;
-        margin: 0;
+    
 
 
         .bar {
-            height: 100%;
-            width: calc(1 * calc(100% / 22));
+           height: 100%;
+            width: calc(1*calc(100%/22));
             background-color: #1078AD;
             border-bottom-left-radius: 20px;
             border-top-left-radius: 20px;

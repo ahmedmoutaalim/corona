@@ -431,6 +431,7 @@ body {
     border: 1px solid #F4CF1B;
     width: 20%; }
 
+/*-------------------------------------------------------*/
 .answer-inputs {
   display: flex;
   align-items: center;
@@ -519,8 +520,7 @@ body {
     font-size: 15px;
     color: white;
     float: right;
-    outline: none;
-    cursor: not-allowed; }
+    outline: none; }
     .area button:hover {
       background-color: #1078AD; }
 
@@ -543,11 +543,10 @@ body {
     width: 90%;
     height: 10px;
     border-radius: 20px;
-    background-color: #e6f1f7;
-    margin: 0; }
+    background-color: #e6f1f7; }
     .progress__bar .bar {
       height: 100%;
-      width: calc(1 * calc(100% / 22));
+      width: calc(1*calc(100%/22));
       background-color: #1078AD;
       border-bottom-left-radius: 20px;
       border-top-left-radius: 20px;
