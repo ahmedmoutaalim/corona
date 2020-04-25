@@ -66,7 +66,7 @@ function startTest(){
 
 function showQuestion(questions){
 
-    question.innerText=questions
+    question.innerText=questions.question
     selectInputs.innerHTML = ''
 
 
@@ -129,7 +129,7 @@ function progressButtons(number){
 
 
 
-//----------------------------inclickuble ou clickable button--------------:
+//----------------------------inclickuble & clickable button--------------:
 function typeOfButton(event){
 
     const input=event.target
