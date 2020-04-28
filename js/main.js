@@ -56,6 +56,10 @@ function startTest(){
 
     controlButtons()
 
+    endTest(questionIndex)
+
+
+
  }
 
 
@@ -76,7 +80,7 @@ function showQuestion(questions){
 
         selectInputs.innerHTML += 
          `<div>
-        <input type="radio"  name="chois" id="${answer.text}">
+        <input type="radio"  name="choix" id="${answer.text}">
         <label for="${answer.text}">
             <i class="fa ${ answer.icon}"></i>
             <span>${answer.text}</span> </label>
@@ -135,7 +139,7 @@ function typeOfButton(event){
     const input=event.target
  
     
-    if (input.type === 'number') {
+if (input.type === 'number') {
 
 
         const number = parseFloat(input.value)
@@ -148,8 +152,7 @@ function typeOfButton(event){
 
         }
 
-
-        } else {
+} else {
 
         nextButton.disabled = false
     }
@@ -157,7 +160,7 @@ function typeOfButton(event){
    
 }
 
-
+//--------controle Button précédent-----:
 
 
 function controlButtons(){
@@ -171,6 +174,23 @@ function controlButtons(){
         buttPrevious.classList.remove('visibility')
 
     }
+
+}
+
+
+//------------ajouter Button terminé
+
+
+function endTest(){
+
+    if(questionIndex===21){
+
+        nextButton.innerText = 'Terminer le test'    
+
+}else{
+
+    nextButton.innerText = 'Suivant';
+}
 
 }
 
