@@ -21,7 +21,7 @@
       
         <Ul class="navbar__link">
           <il><a class="navbar__link--element" href="conseil.html">conseil</a></il>
-          <il><a class="navbar__link--element" href="#">accueil</a></il>
+          <il><a class="navbar__link--element" href="index.html">accueil</a></il>
           <button class="navbar__link--button">عربي</button>
           <img class="navbar__link--icon" src="img/Icon material-language.png">
          </Ul>
@@ -56,8 +56,8 @@
         </div>
 
 <!------------------------------------------------------------------------------------------------>
-
-        <h1 class="box__question" id="nextQuestion">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours <br> (frissons, sueurs) ?</h1>
+<div class="animated-element">
+        <h1 class="box__question animated" id="nextQuestion">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours <br> (frissons, sueurs) ?</h1>
    
 
 
@@ -65,17 +65,18 @@
 
 
 
-        <div class="answer-inputs">
+        <div class="answer-inputs ">
+
 
             <div>
-                <input type="radio"  name="choix" id="oui">
+                <input type="radio"  name="Q1" id="oui">
                 <label for="oui">
                     <i class="fas fa-check"></i>
                     <span>Oui</span> </label>
             </div>
 
             <div>
-                <input type="radio" name="choix" id="non">
+                <input type="radio" name="Q1" id="non">
                 <label for="non">
                     <i class="fas fa-times"></i>
                     <span>Non</span>
@@ -88,7 +89,8 @@
 <div class="area">
     <button class="area__précédent " id="pré-btn">Précédent</button>
     <button class="area__suivent" id="next-btn">Suivant</button>
-</div>        
+</div>  
+</div>      
     </section>
 
 
@@ -125,7 +127,7 @@
             <ul class="list__ul">
                 <img class="list__icon" src="img/Icon material-language.png">
                 <li><button class="list__button">FRAN</button></li>
-                 <li class="list__il"><a class="list__il" href="#" >Accueil</a></li>
+                <a class="list__il" href="index.html" >  <li class="list__il">Accueil</li></a>
                  <li class="list__il"><a  class="list__il" href="#" >Contact</a></li>
                 
             </ul>
